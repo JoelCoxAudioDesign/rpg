@@ -42,6 +42,12 @@ const monsterStats = document.querySelector("#monsterStats")
 const monsterName = document.querySelector("#monsterName")
 const monsterHealthText = document.querySelector("#monsterHealth")
 
+const weapons = [
+    { name: 'stick', power: 5 },
+    { name: 'dagger', power: 30 },
+    { name: 'claw hammer', power: 50 },
+    { name: 'sword', power: 100 }
+]
 //Locations array allows us to move between "states" of the game. Each object contains the name of the state, the buttons the player will interact with, what the function calls for each button, as well as text to explain to the player.
 const locations = [
     {
